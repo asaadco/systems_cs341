@@ -1,6 +1,6 @@
 # [CS341] Experimental Grib 2 Repository
 
-This repo contains modified code from ECCODES library. The modified codefile is jpeg2000_encode. This repository is not intended for consumer use and is only for developmental purposes. The goals of this project are the following:
+This repo contains modified code from ECCODES library. The modified codefile is grib_openjpeg_encoding.c. This repository is not intended for consumer use and is only for developmental purposes. The goals of this project are the following:
 
 * [**Analysis**] Understand the architecture of Grib2 and how the methods are connected
 * [**Implementation**] Reconstruct Grib2 JP2000 encoder and decoder methods so that
