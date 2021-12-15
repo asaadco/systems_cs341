@@ -15,7 +15,7 @@ In the report, we discuss the results of these goals in great details.
 
 ## Installation and Use
 
-In order to install and run the code, you should follow the installation instruction of the original eccodes library and install any needed dependencies. This will require using CMake and Make. Now after installing and creating the executable binaries, you should be concerned about two files:
+In order to install and run the code, you should follow the installation instruction of the original eccodes library and install any needed dependencies. Once you clone eccodes, you should replace the grib_openjpeg_encoding.c from this repository with the original eccodes file. Installation of Eccodes will require using CMake and Make. Now after installing and creating the executable binaries, you should be concerned about two files:
 
 * grib_accessor_class_data_jpeg2000.c
 * grib_openjpeg_encoding.c
