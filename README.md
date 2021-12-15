@@ -47,7 +47,10 @@ In this section, I will describe the execution flow required in order to create 
 6. We use grib_dump -j Temp_VidCodecs_Imgs.grb2 >> dump.json in order to generate all the floating point numbers of Temperature
 7. Assuming we have a json dump of the original floating numbers, we compare between these two json files by computing MSE_calc in scripts directory
 
-This concludes a basic execution flow. Please note that some directories are hardcoded, so you will need to have understand and look at the methods implemented in grib_openjpeg_encode.c
+This concludes a basic execution flow. Please note that some directories are hardcoded, so you will need to have understand and look at the methods implemented in grib_openjpeg_encode.c. The figure below provides an overview of how the system works.
+
+![image](https://user-images.githubusercontent.com/31670621/146174734-692a44fc-70c5-42ac-9bbf-372509ba177d.png)
+
 
 ## Resources
 
